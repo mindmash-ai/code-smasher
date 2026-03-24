@@ -1,0 +1,1 @@
+namespace CodeSmasher.Core { public interface ICodeReviewStrategy { void Review(string code); string[] DetectIssues(string code); string GetLanguageName(); } }
